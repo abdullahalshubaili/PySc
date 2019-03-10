@@ -1,9 +1,9 @@
 #this scripts converts str to hex 
 #cipher+key+iv to be decrypted later on
 
-cipher = 'Tq+CWzQS0wYzs2rJ+GNrPLP6qekDbwze6fIeRRwBK2WXHOhba7WR2OGNUFKoAvyW7njTCMlQzlwIRdJvaP2iYQ=='.encode('utf-8')
-key = 'OSi8LA5ObmRG/ptfObCRYc5fTJo='.encode('utf-8')
-iv = '29RUAWvtcfK9zb2mWAG/xUWRbSpUf3j7trwevLh3cxg='.encode('utf-8')
+cipher = 'CIPHER?'.encode('utf-8')
+key = 'BASE64 KEY'.encode('utf-8')
+iv = 'BASE64 IV'.encode('utf-8')
 cipher1 = cipher.hex()
 key1 = key.hex()
 iv1 = iv.hex()
